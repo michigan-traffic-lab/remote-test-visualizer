@@ -1,0 +1,157 @@
+{
+  "configById": {
+    "Plot!2wyi6rx": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/mkz_bywire_intf/vehState.RTK_gps_twist_linear_vx",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Speed "
+    },
+    "Gauge!2tq2xo2": {
+      "path": "/mkz_bywire_intf/vehState.throttle_cmd",
+      "minValue": 0,
+      "maxValue": 0.6,
+      "colorMap": "red-yellow-green",
+      "colorMode": "gradient",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": true,
+      "foxglovePanelTitle": "Throttle "
+    },
+    "Gauge!13siwz0": {
+      "path": "/mkz_bywire_intf/vehState.brake_cmd",
+      "minValue": 0,
+      "maxValue": 0.6,
+      "colorMap": "red-yellow-green",
+      "colorMode": "colormap",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": true,
+      "foxglovePanelTitle": "Brake "
+    },
+    "3D!3dj47k": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 140.45363864740133,
+        "phi": 65.01677970635329,
+        "thetaOffset": 44.59868664313485,
+        "targetOffset": [
+          17.824890791662646,
+          66.33779350724558,
+          -1.5271401784923888e-15
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {
+        "/vector_map": {
+          "visible": true
+        },
+        "/detection/contour_tracker/objects_markers": {
+          "visible": true
+        },
+        "/dynamic_collision_points_rviz": {
+          "visible": true
+        },
+        "/current_pose": {
+          "visible": true
+        },
+        "/behavior_state": {
+          "visible": true
+        },
+        "/initialpose": {
+          "visible": true
+        },
+        "/move_base_simple/goal": {
+          "visible": true
+        }
+      },
+      "layers": {
+        "0365aa0a-fa47-4f64-b997-532e61a7aa28": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "0365aa0a-fa47-4f64-b997-532e61a7aa28",
+          "layerId": "foxglove.Grid",
+          "frameId": "base_link",
+          "size": 3,
+          "divisions": 1,
+          "lineWidth": 10,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "order": 1,
+          "color": "#ff2440ff"
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {},
+      "foxglovePanelTitle": "Mcity Track"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "direction": "row",
+    "first": "Plot!2wyi6rx",
+    "second": {
+      "direction": "row",
+      "first": {
+        "first": "Gauge!2tq2xo2",
+        "second": "Gauge!13siwz0",
+        "direction": "column"
+      },
+      "second": "3D!3dj47k",
+      "splitPercentage": 40.17758046614872
+    },
+    "splitPercentage": 29.609375
+  }
+}
