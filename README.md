@@ -53,16 +53,20 @@ Back in the Foxglove Studio browser application, as shown below, click on the me
 
 1. **Sample Visualization - Simulation Screen – 1**
 
-![](RackMultipart20231027-1-yeyub_html_1fd7c377e790f71e.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/d9374dc8-4568-4708-8ca7-a952b06d33fc)
+
 
 1. **Sample Visualization - Simulation Screen – 2**
 
-![](RackMultipart20231027-1-yeyub_html_1c488e8f4bf50f71.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/cd5ddebc-1b86-425d-aa12-240a3da28af8)
+
 
 1. **Sample Visualization - Vehicle Screen – 1**
 
-![](RackMultipart20231027-1-yeyub_html_d69eaa2a31189c6b.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/666ebbf2-148f-4866-bfcd-bafd72acb1d7)
+
 
 1. **Sample Visualization - Vehicle Screen – 2**
 
-![](RackMultipart20231027-1-yeyub_html_1c488e8f4bf50f71.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/2489ab5e-4790-413e-8fe8-03f8f7f72e69)
+
