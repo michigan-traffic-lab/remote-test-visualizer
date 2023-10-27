@@ -33,8 +33,13 @@ On the Settings wizard, please select Color scheme: Dark and click Done.
 
 ![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/6dab3099-3e64-4cd5-8213-b5f56c97d229)
 
+---
 
-**To load the Mcity OS default layout, follow these next steps:**
+---
+
+---
+
+# **To load the Mcity OS default layout, follow these next steps:**
 
 There will be two Foxglove studio sessions (each) for both simulation & real vehicle (AV) remote testing. Here is the file you need to download locally and import as described below:
 
@@ -49,10 +54,17 @@ Back in the Foxglove Studio browser application, as shown below, click on the me
 
 ![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/762f92f4-32f9-4fbe-b4b5-364ccca7397c)
 
+---
 
 **When prompted, browse to the file you downloaded earlier. This will load the Mcity default layout for remove observation of testing at Mcity.**
 
-**Sample Visualization screens for** **simulation & real vehicle (AV) remote testing**
+---
+
+---
+
+---
+
+# **Sample Visualization screens for** **simulation & real vehicle (AV) remote testing**
 
 1. **Sample Visualization - Simulation Screen – 1**
 
