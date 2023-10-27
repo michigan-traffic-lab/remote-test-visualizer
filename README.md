@@ -1,5 +1,3 @@
-# Remote test visualizer
-
 # **Foxglove Studio Visualizer for remote testing:**
 
 To open Foxglove Studio with data visualizer, there are two potions:
