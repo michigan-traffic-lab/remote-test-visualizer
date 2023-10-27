@@ -11,11 +11,13 @@ You can find more information about Foxglove Studio at: [https://foxglove.dev/do
 
 When you open Foxglove, you will be greeted by the screen shown below:
 
-![](RackMultipart20231027-1-yeyub_html_8b53d19b74e2e449.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/c2528144-5d91-4361-b714-8c6ee038da68)
+
 
 Click on the "Open connection" option. You will see the following screen:
 
-![](RackMultipart20231027-1-yeyub_html_296edeb62e7d8c2c.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/9c92dd8b-fe3e-4688-b0b5-bff4937408b6)
+
 
 Replace the default Websocket URL with one of the following:
 
@@ -26,11 +28,13 @@ Replace the default Websocket URL with one of the following:
 
 Once you enter the URL and click Open, go to profile and click on Settings:
 
-![](RackMultipart20231027-1-yeyub_html_fe15e4e06c1a1fee.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/9f8c9207-be3e-4969-a202-b19298418683)
+
 
 On the Settings wizard, please select Color scheme: Dark and click Done.
 
-![](RackMultipart20231027-1-yeyub_html_7f33ac65c2a0c8e7.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/6dab3099-3e64-4cd5-8213-b5f56c97d229)
+
 
 **To load the Mcity OS default layout, follow these next steps:**
 
@@ -45,7 +49,8 @@ There will be two Foxglove studio sessions (each) for both simulation & real veh
 
 Back in the Foxglove Studio browser application, as shown below, click on the menu icon, then "View" , then click on "Import layout from file…".
 
-![](RackMultipart20231027-1-yeyub_html_f0cbe7c1093a858c.png)
+![image](https://github.com/michigan-traffic-lab/remote-test-visualizer/assets/54770426/762f92f4-32f9-4fbe-b4b5-364ccca7397c)
+
 
 **When prompted, browse to the file you downloaded earlier. This will load the Mcity default layout for remove observation of testing at Mcity.**
 
