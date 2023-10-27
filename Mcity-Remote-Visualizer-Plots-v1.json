@@ -1,0 +1,99 @@
+{
+  "configById": {
+    "Plot!t72gs5": {
+      "paths": [
+        {
+          "value": "/metric_info.data[2]",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": false,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Average Speed",
+      "followingViewWidth": 20
+    },
+    "Plot!23keb65": {
+      "paths": [
+        {
+          "value": "/latency.data",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Average Speed",
+      "followingViewWidth": 10
+    },
+    "Plot!2xemnwv": {
+      "paths": [
+        {
+          "value": "/metric_info.data[0]",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Min Distance",
+      "followingViewWidth": 20
+    },
+    "Plot!1fmepjo": {
+      "paths": [
+        {
+          "value": "/metric_info.data[2]",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "none",
+      "showPlotValuesInLegend": false,
+      "isSynced": false,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Time to Collision",
+      "followingViewWidth": 20
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "direction": "row",
+    "first": {
+      "first": "Plot!t72gs5",
+      "second": "Plot!23keb65",
+      "direction": "column"
+    },
+    "second": {
+      "first": "Plot!2xemnwv",
+      "second": "Plot!1fmepjo",
+      "direction": "column"
+    },
+    "splitPercentage": 51.19093981864623
+  }
+}
