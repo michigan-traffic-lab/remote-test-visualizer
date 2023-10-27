@@ -1,0 +1,98 @@
+{
+  "configById": {
+    "3D!3dj47k": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 24.554753263093396,
+        "phi": 59.99999999999931,
+        "thetaOffset": 45.0000000000001,
+        "targetOffset": [
+          -3.351995788018784,
+          -0.7357040548306344,
+          -2.7355273108120398e-15
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {
+        "/vector_map": {
+          "visible": true
+        },
+        "/detection/contour_tracker/objects_markers": {
+          "visible": true
+        },
+        "/dynamic_collision_points_rviz": {
+          "visible": true
+        },
+        "/current_pose": {
+          "visible": true
+        },
+        "/behavior_state": {
+          "visible": true
+        },
+        "/initialpose": {
+          "visible": true
+        },
+        "/move_base_simple/goal": {
+          "visible": true
+        }
+      },
+      "layers": {
+        "0365aa0a-fa47-4f64-b997-532e61a7aa28": {
+          "visible": true,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "0365aa0a-fa47-4f64-b997-532e61a7aa28",
+          "layerId": "foxglove.Grid",
+          "frameId": "base_link",
+          "size": 3,
+          "divisions": 1,
+          "lineWidth": 10,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "order": 1,
+          "color": "#ff2440ff"
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": "3D!3dj47k"
+}
