@@ -43,9 +43,9 @@ There will be two Foxglove studio sessions (each) for both simulation & real veh
 | **Sr No** | **Objective** | **Visualization URL** | **File URL** |
 | --- | --- | --- | --- |
 | 1 | Simulation Screen - 1 | wss://foxglove-simulation-server.um.city | [Mcity-Remote-Visualizer-Simulation.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Simulation.json) |
-| 2 | Simulation Screen - 2 | wss://foxglove-simulation-server.um.city | [Mcity-Remote-Visualizer-Plots-v1.json] (https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-v1.json) |
-| 3 | Vehicle Screen - 1 | wss://foxglove-server.um.city | https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-v3.json |
-| 4 | Vehicle Screen - 2 | wss://foxglove-server.um.city | https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-v1.json |
+| 2 | Simulation Screen - 2 | wss://foxglove-simulation-server.um.city | [Mcity-Remote-Visualizer-Plots-v1.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-v1.json) |
+| 3 | Vehicle Screen - 1 | wss://foxglove-server.um.city | [Mcity-Remote-Visualizer-v3.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-v3.json) |
+| 4 | Vehicle Screen - 2 | wss://foxglove-server.um.city | [Mcity-Remote-Visualizer-Plots-v1.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-v1.json) |
 
 Back in the Foxglove Studio browser application, as shown below, click on the menu icon, then "View" , then click on "Import layout from file…".
 
