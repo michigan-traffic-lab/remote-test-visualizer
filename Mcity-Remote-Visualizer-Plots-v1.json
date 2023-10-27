@@ -5,7 +5,8 @@
         {
           "value": "/metric_info.data[2]",
           "enabled": true,
-          "timestampMethod": "receiveTime"
+          "timestampMethod": "receiveTime",
+          "label": "average_speed"
         }
       ],
       "showXAxisLabels": true,
@@ -24,7 +25,8 @@
         {
           "value": "/latency.data",
           "enabled": true,
-          "timestampMethod": "receiveTime"
+          "timestampMethod": "receiveTime",
+          "label": "latency"
         }
       ],
       "showXAxisLabels": true,
@@ -35,7 +37,7 @@
       "isSynced": true,
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
-      "foxglovePanelTitle": "Average Speed",
+      "foxglovePanelTitle": "Latency",
       "followingViewWidth": 10
     },
     "Plot!2xemnwv": {
@@ -43,7 +45,8 @@
         {
           "value": "/metric_info.data[0]",
           "enabled": true,
-          "timestampMethod": "receiveTime"
+          "timestampMethod": "receiveTime",
+          "label": "minimum_distance"
         }
       ],
       "showXAxisLabels": true,
@@ -62,13 +65,14 @@
         {
           "value": "/metric_info.data[2]",
           "enabled": true,
-          "timestampMethod": "receiveTime"
+          "timestampMethod": "receiveTime",
+          "label": "time_to_collision"
         }
       ],
       "showXAxisLabels": true,
       "showYAxisLabels": true,
       "showLegend": true,
-      "legendDisplay": "none",
+      "legendDisplay": "floating",
       "showPlotValuesInLegend": false,
       "isSynced": false,
       "xAxisVal": "timestamp",
