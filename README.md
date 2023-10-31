@@ -1,11 +1,17 @@
 # **Foxglove Studio Visualizer for remote testing:**
 
-To open Foxglove Studio with data visualizer, there are two potions:
+## Introduction 
+The remote-test-visualizer was build upon the Foxglove Studio, an open-source visualization and debugging tool designed for ROS. This visuizlier offers a user interface enabling remote users to dynamically observe AV state, diverse safety and efficiency metrics, and more in real time. The visualizer supports the visualization of the simulation-based testing using Mcity digital infrastructure and mixed-reality testing using both Mcity digital infrastructure and physical infrastructure. 
+
+## Installation
+To open Foxglove Studio with data visualizer, there are two options:
 
 - In Chrome, go to [https://studio.foxglove.dev/](https://studio.foxglove.dev/)
 - Alternatively, Visit [https://foxglove.dev/download](https://foxglove.dev/download) to download Foxglove Studio for your desktop
 
 You can find more information about Foxglove Studio at: [https://foxglove.dev/docs/studio](https://foxglove.dev/docs/studio)
+
+## Usage
 
 When you open Foxglove, you will be greeted by the screen shown below:
 
@@ -19,10 +25,10 @@ Click on the "Open connection" option. You will see the following screen:
 
 Replace the default Websocket URL with one of the following:
 
-| **Sr No** | **Testing Type** | **Visualization URL** |
+| **Sr No** | **Remote Testing Type** | **Visualization URL** |
 | --- | --- | --- |
 | 1 | Simulation | wss://foxglove-simulation-server.um.city |
-| 2 | Physical Resting | wss://foxglove-server.um.city |
+| 2 | Mixed-reality | wss://foxglove-server.um.city |
 
 Once you enter the URL and click Open, go to profile and click on Settings:
 
@@ -43,12 +49,12 @@ On the Settings wizard, please select Color scheme: Dark and click Done.
 
 There will be two Foxglove studio sessions (each) for both simulation & real vehicle (AV) remote testing. Here is the file you need to download locally and import as described below:
 
-| **Sr No** | **Objective** | **Visualization URL** | **File URL** |
-| --- | --- | --- | --- |
-| 1 | Simulation Screen - 1 | wss://foxglove-simulation-server.um.city | [Mcity-Remote-Visualizer-Simulation.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Simulation.json) |
-| 2 | Simulation Screen - 2 | wss://foxglove-simulation-server.um.city | [Mcity-Remote-Visualizer-Plots-Simulation-v1.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-Simulation-v1.json) |
-| 3 | Vehicle Screen - 1 | wss://foxglove-server.um.city | [Mcity-Remote-Visualizer-v3.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-v3.json) |
-| 4 | Vehicle Screen - 2 | wss://foxglove-server.um.city | [Mcity-Remote-Visualizer-Plots-v1.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-v1.json) |
+| **Sr No** | **Remote Testing Type** |**Objective** | **Visualization URL** | **File URL** |
+| --- | --- | --- | --- | --- |
+| 1 | Simulation | simulated AV and BV state | wss://foxglove-simulation-server.um.city | [Mcity-Remote-Visualizer-Simulation.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Simulation.json) |
+| 2 | Simulation | Evaluation metrics | wss://foxglove-simulation-server.um.city | [Mcity-Remote-Visualizer-Plots-Simulation-v1.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-Simulation-v1.json) |
+| 3 | Mixed-reality | AV and BV state | wss://foxglove-server.um.city | [Mcity-Remote-Visualizer-v3.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-v3.json) |
+| 4 | Mixed-reality | Evaluation metrics | wss://foxglove-server.um.city | [Mcity-Remote-Visualizer-Plots-v1.json](https://github.com/michigan-traffic-lab/remote-test-visualizer/blob/main/Mcity-Remote-Visualizer-Plots-v1.json) |
 
 Back in the Foxglove Studio browser application, as shown below, click on the menu icon, then "View" , then click on "Import layout from file…".
 
