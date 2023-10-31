@@ -1,7 +1,7 @@
 # **Foxglove Studio Visualizer for remote testing:**
 
 ## Introduction 
-The remote test visualizer was built upon the Foxglove Studio, an open-source visualization and debugging tool designed for ROS. This visualizer offers a user interface enabling remote users to dynamically observe AV state, diverse safety and efficiency metrics, and more in real-time. The visualizer supports the visualization of the simulation-based testing using Mcity digital infrastructure and mixed-reality (MR) testing using both Mcity digital infrastructure and physical infrastructure. 
+The remote test visualizer was built upon the Foxglove Studio, an open-source visualization and debugging tool designed for ROS. This visualizer offers a user interface enabling remote users to dynamically observe AV state, diverse safety and efficiency metrics, and more in real-time during the testing process. The visualizer supports the visualization of the simulation-based testing using Mcity digital infrastructure and mixed-reality (MR) testing using both Mcity digital infrastructure and physical infrastructure. 
 
 ## Installation
 To run Foxglove Studio for visualizing the remote test, there are two options:
@@ -43,7 +43,7 @@ On the Settings wizard, please select Color scheme: Dark and click Done.
 
 ### **To load the default layout, follow these next steps:**
 
-There will be two Foxglove studio sessions (each) for both simulated-based & MR-based remote testing. Here is the file you need to download locally and import as described below:
+There will be two Foxglove studio sessions (each) for both simulation-based & MR-based remote testing. Here is the file you need to download locally and import as described below:
 
 | **Sr No** | **Remote Testing Type** |**Objective** | **Visualization URL** | **File URL** |
 | --- | --- | --- | --- | --- |
@@ -59,7 +59,7 @@ Back in the Foxglove Studio browser application, as shown below, click on the me
 When prompted, browse to the file you downloaded earlier. This will load the Mcity default layout for remote observation of testing at Mcity.
 
 
-## **Sample Visualization screens for** **simulated based & MR based remote testing**
+## **Sample Visualization screens for** **simulation based & MR based remote testing**
 
 **Sample Visualization - Simulation Screen – 1**
 
