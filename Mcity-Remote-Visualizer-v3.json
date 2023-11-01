@@ -50,12 +50,14 @@
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
       "foxglovePanelTitle": "Speed",
-      "followingViewWidth": 20
+      "followingViewWidth": 20,
+      "minYValue": 0,
+      "maxYValue": 10
     },
     "3D!3dj47k": {
       "cameraState": {
         "perspective": true,
-        "distance": 155.62730044033367,
+        "distance": 234.58321917813154,
         "phi": 65.01677970635329,
         "thetaOffset": 44.59868664313485,
         "targetOffset": [
