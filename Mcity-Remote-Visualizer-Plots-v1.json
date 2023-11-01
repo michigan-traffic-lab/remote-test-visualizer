@@ -17,7 +17,7 @@
       "isSynced": false,
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
-      "foxglovePanelTitle": "Average Speed",
+      "foxglovePanelTitle": "Average Speed(m/s)",
       "followingViewWidth": 20
     },
     "Plot!23keb65": {
@@ -37,7 +37,7 @@
       "isSynced": true,
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
-      "foxglovePanelTitle": "Latency",
+      "foxglovePanelTitle": "Latency(s)",
       "followingViewWidth": 10
     },
     "Plot!2xemnwv": {
@@ -57,13 +57,13 @@
       "isSynced": true,
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
-      "foxglovePanelTitle": "Min Distance",
+      "foxglovePanelTitle": "Min Distance(m)",
       "followingViewWidth": 20
     },
     "Plot!1fmepjo": {
       "paths": [
         {
-          "value": "/metric_info.data[2]",
+          "value": "/metric_info.data[1]",
           "enabled": true,
           "timestampMethod": "receiveTime",
           "label": "time_to_collision"
@@ -77,7 +77,7 @@
       "isSynced": false,
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
-      "foxglovePanelTitle": "Time to Collision",
+      "foxglovePanelTitle": "Time to Collision(s)",
       "followingViewWidth": 20
     }
   },
