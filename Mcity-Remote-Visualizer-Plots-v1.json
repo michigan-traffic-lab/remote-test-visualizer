@@ -18,7 +18,9 @@
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
       "foxglovePanelTitle": "Average Speed(m/s)",
-      "followingViewWidth": 20
+      "followingViewWidth": 20,
+      "minYValue": 0,
+      "maxYValue": 10
     },
     "Plot!23keb65": {
       "paths": [
@@ -38,7 +40,9 @@
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
       "foxglovePanelTitle": "Latency(s)",
-      "followingViewWidth": 10
+      "followingViewWidth": 10,
+      "minYValue": 0,
+      "maxYValue": 0.5
     },
     "Plot!2xemnwv": {
       "paths": [
@@ -58,7 +62,9 @@
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
       "foxglovePanelTitle": "Min Distance(m)",
-      "followingViewWidth": 20
+      "followingViewWidth": 20,
+      "minYValue": 0,
+      "maxYValue": 30
     },
     "Plot!1fmepjo": {
       "paths": [
@@ -78,7 +84,9 @@
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
       "foxglovePanelTitle": "Time to Collision(s)",
-      "followingViewWidth": 20
+      "followingViewWidth": 20,
+      "minYValue": -1,
+      "maxYValue": 25
     }
   },
   "globalVariables": {},
