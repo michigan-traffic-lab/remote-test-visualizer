@@ -32,13 +32,13 @@
           "timestampMethod": "receiveTime",
           "value": "/mkz_bywire_intf/vehState.RTK_gps_twist_linear_vx",
           "enabled": true,
-          "label": "Vehicle State"
+          "label": "Current Speed (m/s)"
         },
         {
           "timestampMethod": "receiveTime",
           "value": "/mkz_path_plan/result.vd",
           "enabled": true,
-          "label": "Vehicle Result"
+          "label": "Targeted Speed (m/s)"
         }
       ],
       "showXAxisLabels": true,
@@ -55,7 +55,7 @@
     "3D!3dj47k": {
       "cameraState": {
         "perspective": true,
-        "distance": 140.45363864740133,
+        "distance": 155.62730044033367,
         "phi": 65.01677970635329,
         "thetaOffset": 44.59868664313485,
         "targetOffset": [
