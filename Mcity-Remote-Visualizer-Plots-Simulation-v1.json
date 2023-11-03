@@ -6,7 +6,7 @@
           "value": "/metric_info.data[2]",
           "enabled": true,
           "timestampMethod": "receiveTime",
-          "label": "average_speed"
+          "label": "speed_difference"
         }
       ],
       "showXAxisLabels": true,
@@ -17,10 +17,10 @@
       "isSynced": false,
       "xAxisVal": "timestamp",
       "sidebarDimension": 240,
-      "foxglovePanelTitle": "Average Speed(m/s)",
+      "foxglovePanelTitle": "Speed Difference(m/s)",
       "followingViewWidth": 20,
       "minYValue": 0,
-      "maxYValue": 10
+      "maxYValue": 8
     },
     "Plot!23keb65": {
       "paths": [
