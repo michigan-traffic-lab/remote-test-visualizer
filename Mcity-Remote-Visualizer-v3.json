@@ -11,7 +11,7 @@
         "#ff00ff"
       ],
       "reverse": true,
-      "foxglovePanelTitle": "Break"
+      "foxglovePanelTitle": "Brake"
     },
     "Gauge!1u79q68": {
       "path": "/mkz_bywire_intf/vehState.throttle_cmd",
