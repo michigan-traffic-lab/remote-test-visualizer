@@ -1,7 +1,7 @@
 {
   "configById": {
     "Gauge!2tq2xo2": {
-      "path": "/mkz_bywire_intf/vehState.brake_cmd",
+      "path": "/mkz_bywire_intf/vehState.data[2]",
       "minValue": 0,
       "maxValue": 0.6,
       "colorMap": "red-yellow-green",
@@ -14,7 +14,7 @@
       "foxglovePanelTitle": "Brake"
     },
     "Gauge!1u79q68": {
-      "path": "/mkz_bywire_intf/vehState.throttle_cmd",
+      "path": "/mkz_bywire_intf/vehState.data[",
       "minValue": 0,
       "maxValue": 0.6,
       "colorMap": "red-yellow-green",
@@ -30,7 +30,7 @@
       "paths": [
         {
           "timestampMethod": "receiveTime",
-          "value": "/mkz_bywire_intf/vehState.speed_x",
+          "value": "/mkz_bywire_intf/vehState.data[0]",
           "enabled": true,
           "label": "Current Speed (m/s)"
         },
@@ -56,19 +56,18 @@
     },
     "3D!3dj47k": {
       "cameraState": {
+        "distance": 246.92970439783056,
         "perspective": true,
-        "distance": 234.58321917813154,
-        "phi": 65.01677970635329,
-        "thetaOffset": 44.59868664313485,
-        "targetOffset": [
-          17.824890791662646,
-          66.33779350724558,
-          -1.5271401784923888e-15
-        ],
+        "phi": 65.01677970635305,
         "target": [
           0,
           0,
           0
+        ],
+        "targetOffset": [
+          38.38799834864482,
+          108.25690164081959,
+          2.3461586788891608e-14
         ],
         "targetOrientation": [
           0,
@@ -76,6 +75,7 @@
           0,
           1
         ],
+        "thetaOffset": 44.598686643135764,
         "fovy": 45,
         "near": 0.5,
         "far": 5000
@@ -161,6 +161,6 @@
       "direction": "column"
     },
     "second": "3D!3dj47k",
-    "splitPercentage": 44.84375
+    "splitPercentage": 100
   }
 }
