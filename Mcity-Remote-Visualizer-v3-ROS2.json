@@ -14,7 +14,7 @@
       "foxglovePanelTitle": "Brake"
     },
     "Gauge!1u79q68": {
-      "path": "/mkz_bywire_intf/vehState.data[",
+      "path": "/mkz_bywire_intf/vehState.data[1]",
       "minValue": 0,
       "maxValue": 0.6,
       "colorMap": "red-yellow-green",
