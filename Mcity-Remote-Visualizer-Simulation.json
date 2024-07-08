@@ -3,13 +3,13 @@
     "3D!3dj47k": {
       "cameraState": {
         "perspective": true,
-        "distance": 75.89554049206339,
-        "phi": 59.999999999999154,
-        "thetaOffset": 45.00000000000009,
+        "distance": 155.62730044036553,
+        "phi": 59.99999999999898,
+        "thetaOffset": 45.00000000000013,
         "targetOffset": [
-          -12.422139389695756,
-          51.55392778879935,
-          -3.280263590676748e-15
+          12.673368628506553,
+          154.2015257128411,
+          -4.450018325585078e-15
         ],
         "target": [
           0,
@@ -55,6 +55,9 @@
           "visible": true
         },
         "/intersections": {
+          "visible": true
+        },
+        "/terasimintersection": {
           "visible": true
         }
       },
