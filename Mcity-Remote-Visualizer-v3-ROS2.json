@@ -56,18 +56,19 @@
     },
     "3D!3dj47k": {
       "cameraState": {
-        "distance": 234.58321917813154,
         "perspective": true,
+        "distance": 181.51602325741905,
         "phi": 65.01677970635329,
+        "thetaOffset": 44.59868664313484,
+        "targetOffset": [
+          -11.805603382256713,
+          173.95022699887463,
+          2.6605038777024973e-15
+        ],
         "target": [
           0,
           0,
           0
-        ],
-        "targetOffset": [
-          17.824890791662646,
-          66.33779350724558,
-          -1.5271401784923888e-15
         ],
         "targetOrientation": [
           0,
@@ -75,7 +76,6 @@
           0,
           1
         ],
-        "thetaOffset": 44.59868664313485,
         "fovy": 45,
         "near": 0.5,
         "far": 5000
@@ -85,7 +85,21 @@
       "transforms": {},
       "topics": {
         "/vector_map": {
-          "visible": true
+          "visible": true,
+          "namespaces": {
+            "cross_road": {
+              "visible": false
+            },
+            "road_pole": {
+              "visible": false
+            },
+            "signal": {
+              "visible": false
+            },
+            "stop_line": {
+              "visible": false
+            }
+          }
         },
         "/detection/contour_tracker/objects_markers": {
           "visible": true
